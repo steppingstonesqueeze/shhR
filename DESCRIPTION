@@ -1,0 +1,12 @@
+Package: shhR
+Title: Smale's Horseshoe Map to produce a non-cryptographic hash 
+Version: 0.0.0.9000
+Authors@R: 
+    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
+Description: We use Smale's horseshoe map (diffeomorphism) to create a non-cryptographic hash using the general principles of sensitivty to initial conditions. Additionally, we show 
+illustrative plots for how neighbouring points diverge in a bounded, chaotic manner due to the diffeomorphic nature of the horseshoe map and visualise where neighbouring points get
+situated on the initial square after many stretch-compress rounds of appyling the map.
+License: MIT 
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
