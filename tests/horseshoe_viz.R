@@ -105,7 +105,7 @@ track_point_distance <- function(p1, p2, mod = 50, rounds = 10,
     geom_line(color = "blue") +
     geom_point(color = "red", size = 2) +
     theme_minimal() +
-    labs(title = sprintf("Distance growth: (%d,%d) vs (%d,%d)",
+    labs(title = sprintf("Distance growth: (%.3f,%.3f) vs (%.3f,%.3f)",
                          p1[1], p1[2], p2[1], p2[2]),
          x = "Round", y = "Euclidean distance")
 }
