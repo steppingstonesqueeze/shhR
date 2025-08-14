@@ -111,4 +111,4 @@ track_point_distance <- function(p1, p2, mod = 50, rounds = 10,
 }
 
 # Example usage
-track_point_distance(c(10, 10), c(11, 10), mod = 50, rounds = 20, stretch = 3, compress = 2)
+track_point_distance(c(1, 1), c(2, 1), mod = 50, rounds = 20, stretch = 3, compress = 2)

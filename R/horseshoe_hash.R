@@ -13,8 +13,10 @@ string_to_xy <- function(s, mod) {
 # One round of discrete horseshoe
 horseshoe_round <- function(x, y, mod, stretch=3, compress=2) {
   # Stretch x, compress y
-  x <- (x * stretch) %% mod
-  y <- (y %/% compress) %% mod
+  
+  #if x,y not ints, floor it
+  x <- floor(x * stretch) %% mod
+  y <- floor(y %/% compress) %% mod
 
   # Fold: flip half the strip in x
   half <- mod %/% 2
